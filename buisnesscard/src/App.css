@@ -1,0 +1,133 @@
+.App {
+  background: #23252c;
+  margin: 0;
+  font-family: Inter;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 317px;
+  height: 720px;
+  background: #1A1B21;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.profilePic {
+  width: 317px;
+  height: 317px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.bio>span{
+    padding: 2px;
+}
+
+button {
+    display: flex;
+  width: 250px;
+  align-self: center;
+  border-radius: 6px;
+  padding: 10px;
+  justify-content: center;
+  border-style: none;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+
+}
+
+.mailLogo{
+    align-self: center;
+}
+
+p{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DCDCDC;
+}
+
+h2{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DCDCDC;
+}
+
+.name{
+    font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+;
+
+}
+
+.position{
+    font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #F3BF99;
+
+
+}
+
+.webpage{
+    font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #F5F5F5;
+
+}
+
+.footer{
+    background: #161619;
+
+display: flex;
+justify-content:space-evenly;
+padding: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.footer> img{
+    size: 25px;
+}
+
+.description{
+    margin: 30px;
+}
